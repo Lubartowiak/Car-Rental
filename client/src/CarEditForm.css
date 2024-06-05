@@ -1,0 +1,65 @@
+/* CarEditForm.css */
+
+.car-edit-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-edit-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.car-edit-form .car-edit-form-input-group {
+    margin-bottom: 1em;
+}
+
+.car-edit-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.car-edit-form input, .car-edit-form select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.car-edit-form button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-edit-form .car-edit-form-primary-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.car-edit-form .car-edit-form-secondary1-button {
+    background-color: #6c757d;
+    color: white;
+}
+.secondary1{
+    background-color: #007bff;
+    color: white;
+    display: inline-block;
+    padding: 0.6em 1em;
+    margin-right: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 19px;
+    
+}

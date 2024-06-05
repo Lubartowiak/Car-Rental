@@ -1,0 +1,74 @@
+.add-renting-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.dodnow{
+    margin:auto;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    text-align: center;
+    color: #333;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group select,
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button.primary {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.secondary6 {
+    background-color: #0056b3;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+button.primary:hover,
+button.secondary6:hover {
+    opacity: 0.9;
+    margin-right: 3rem;
+}
+.secondary6{
+    margin-left: 0.1rem;
+}

@@ -1,0 +1,29 @@
+version: "3"
+services:
+  frontend:
+    container_name: react-client
+    build:
+      context: ./client
+    ports:
+      - 8080:80
+    restart: on-failure
+    depends_on:
+      - server
+  server:
+    container_name: express-server
+    build:
+      context: ./server
+    ports:
+      - 3000:3000
+    restart: always
+    depends_on:
+      - mysql
+  mysql:
+    container_name: mysql
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: car_rental
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    restart: on-failure

@@ -1,0 +1,77 @@
+/* Stylowanie ciała strony */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Stylowanie kontenera dashboard */
+.dashboard-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Stylowanie nagłówka */
+h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Stylowanie przycisku dashboard */
+.dashboard-link {
+    background-image: linear-gradient(to right, #870000 0%, #190A05 0%, #0c0075 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    margin: auto;
+}
+
+.dashboard-link:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+}
+
+/* Stylowanie przycisku wylogowania */
+.logout-button {
+    background-color: #ff4b5c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    margin: auto;
+}
+
+.logout-button:hover {
+    background-color: #ff1e3a;
+}
+
+/* Stylowanie listy i elementów listy */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0;
+}

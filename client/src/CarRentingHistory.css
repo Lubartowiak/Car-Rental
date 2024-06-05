@@ -1,0 +1,65 @@
+.car-renting-history-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.car-renting-history-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+    margin-right: 4rem;
+}
+
+.car-history {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.car-history-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.car-history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.car-history-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.car-history-item p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #666;
+    margin-right: 1rem;
+}
+
+.car-history-item p strong {
+    color: #333;
+}
+.car-link{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #555;
+    margin-left: 7rem;
+}
